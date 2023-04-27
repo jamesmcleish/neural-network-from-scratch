@@ -15,4 +15,5 @@ norm_values = exp_values / np.sum(exp_values, axis=1, keepdims=True)
 
 
 print(norm_values)
+
 # print(sum(norm_values))
